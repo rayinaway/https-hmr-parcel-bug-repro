@@ -1,0 +1,10 @@
+{
+	"name": "https-hmr-parcel-bug-repro",
+	"devDependencies": {
+		"parcel": "^2.10.0"
+	},
+	"scripts": {
+		"serve": "parcel serve ./index.html --https",
+		"serve-with-port": "parcel serve ./index.html --port 8000 --https"
+	}
+}
