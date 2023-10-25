@@ -4,7 +4,8 @@
 		"parcel": "^2.10.0"
 	},
 	"scripts": {
-		"serve": "parcel serve ./index.html --https",
-		"serve-with-port": "parcel serve ./index.html --port 8000 --https"
+		"serve": "parcel serve ./index.html",
+		"serve-https": "parcel serve ./index.html --https",
+		"serve-https-port": "parcel serve ./index.html --port 8000 --https"
 	}
 }
